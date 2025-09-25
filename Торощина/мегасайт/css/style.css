@@ -1,0 +1,41 @@
+body{
+    color: #2a2a2a;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+header{
+    color: white;
+    background-color: darkblue;
+    margin: 20px 50px 100px 70px ;
+    padding: 30px 40px 40px 50px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 64px;
+}
+
+b, i, del{
+    background-color: aquamarine;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: brown;
+}
+#structure{
+    background-color: pink;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.menu li{
+    padding: 20px;
+}
